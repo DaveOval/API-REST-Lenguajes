@@ -1,0 +1,28 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Python",
+    "autor": "Guido van Rossum",
+    "anio": "1991",
+    "uso": "IA, Big Data, Data Science, Frameworks de pruebas y desarrollo web",
+}
+
+###
+DELETE  http://localhost:9000/api/10 HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/10 HTTP/1.1
+content-Type: application/json
+{
+    "nombre": "Python",
+    "autor": "Guido van Rossum",
+    "anio": "1991",
+    "uso": "IA, Big Data, Data Science, Frameworks de pruebas y desarrollo web",
+}
